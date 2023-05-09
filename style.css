@@ -123,3 +123,28 @@ button {
     border-width: 5px;
 }
 
+/* quote */
+
+.quote {
+    height: 600px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+}
+
+.qoute-text {
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-top: 200px;
+}
+
+.qoute-sighter {
+    padding-left: 33%;
+    padding-right: 33%;
+    text-align: right;
+    font-weight: 1000;
+    font-size: 18px;
+}
