@@ -4,6 +4,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* header */
 .header {
     display: flex;
     justify-content: space-around;
@@ -29,3 +30,56 @@ li {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/* content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .begin {
+    height: 200px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.content .text-container {
+    width: 33%;
+}
+
+.text-container .title{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.text-container .subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.text-container button {
+    margin-top: 10px;
+}
+
+.begin .img {
+    background-color: gray;
+    width: 33%;
+}
+
+button {
+    background-color: #3382f6;
+    color: #f9faf8;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
