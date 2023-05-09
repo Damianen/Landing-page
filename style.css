@@ -148,3 +148,33 @@ button {
     font-weight: 1000;
     font-size: 18px;
 }
+
+/* call */
+
+.call {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call .container {
+    width: 66%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 12px;
+    background-color: #3382f6;
+    height: 150px;
+    gap: 200px;
+}
+
+.call button {
+    border: 2px solid white;
+}
+
+.call .title {
+    font-size: 24px;
+    font-weight: 700;
+}
